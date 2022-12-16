@@ -17,9 +17,6 @@ process.stdin.on('end', function () {
 function readLine() {
     return input_stdin_array[input_currentline++];
 }
-
-/////////////// ignore above this line ////////////////////
-
 function main() {
     var len = parseInt(readLine());
     var s = readLine();
